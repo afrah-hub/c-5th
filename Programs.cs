@@ -119,7 +119,7 @@ class Program
         courseManager.ViewCourses();
 
         studentManager.AddStudent(new Student { Id = 1, Name = "Afrin", Age = 26, CourseId = 1 });
-        studentManager.AddStudent(new Student { Id = 2, Name = "Rahul", Age = 22, CourseId = 2 });
+        studentManager.AddStudent(new Student { Id = 2, Name = "Salman", Age = 22, CourseId = 2 });
         studentManager.AddStudent(new Student { Id = 3, Name = "Afrah", Age = 28, CourseId = 1 });
 
         studentManager.ViewStudents();
@@ -147,3 +147,4 @@ class Program
 }
 
 #endregion
+
